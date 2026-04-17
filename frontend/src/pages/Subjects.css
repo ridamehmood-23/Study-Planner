@@ -1,0 +1,85 @@
+.subjects-page { max-width: 800px; }
+
+.add-form {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+    align-items: center;
+}
+
+.input {
+    padding: 10px 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    flex: 1;
+    outline: none;
+}
+
+.input:focus { border-color: #7c3aed; }
+
+.color-picker {
+    width: 44px;
+    height: 44px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    background-color: #7c3aed;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.95rem;
+}
+
+.btn-primary:hover { background-color: #6d28d9; }
+
+.btn-delete {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+
+.btn-delete:hover { background-color: #fee2e2; }
+
+.subjects-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.subject-card {
+    background: white;
+    border-radius: 10px;
+    padding: 16px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.subject-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.subject-dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.subject-name {
+    font-size: 1rem;
+    font-weight: 500;
+}

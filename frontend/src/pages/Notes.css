@@ -1,0 +1,65 @@
+.notes-page { max-width: 900px; }
+
+.add-note-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.textarea {
+    resize: vertical;
+    font-family: inherit;
+}
+
+.search-input {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.notes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+}
+
+.note-card {
+    background: white;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.note-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 8px;
+}
+
+.note-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1e1e2e;
+}
+
+.subject-badge {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.note-content {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.5;
+    white-space: pre-wrap;
+}
