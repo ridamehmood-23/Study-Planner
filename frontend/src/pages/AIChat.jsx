@@ -6,7 +6,7 @@ const AIChat = () => {
     const [messages, setMessages] = useState([
         {
             role: 'assistant',
-            text: 'Hello! I am your Study Assistant. Ask me to explain any topic or create a study plan for you! 📚'
+            text: "Hello! I'm your Study Assistant. Ask me to explain any topic or create a study plan for you! 📚"
         }
     ]);
     const [input, setInput] = useState('');
