@@ -32,6 +32,13 @@ const Sidebar = () => {
                 >
                     📝 Notes
                 </NavLink>
+
+                <NavLink
+                            to="/ai"
+                            className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}
+>
+                            🤖 AI Assistant
+                </NavLink>
             </nav>
         </aside>
     );

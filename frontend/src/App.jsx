@@ -6,6 +6,8 @@ import Notes from './pages/Notes';
 import './App.css';
 import Subjects from './pages/Subjects';
 
+import AIChat from './pages/AIChat';
+
 function App() {
     return (
         <BrowserRouter>
@@ -13,11 +15,12 @@ function App() {
                 <Sidebar />
                 <main className="main-content">
                     <Routes>
-                        <Route path="/" element={<Navigate to="/dashboard" />} />
+                        <Route path="/" element={<Dashboard />} />
                         <Route path="/dashboard" element={<Dashboard />} />
                         <Route path="/tasks" element={<Tasks />} />
                         <Route path="/notes" element={<Notes />} />
                         <Route path="/subjects" element={<Subjects />} />
+                        <Route path="/ai" element={<AIChat />} />
                     </Routes>
                 </main>
             </div>

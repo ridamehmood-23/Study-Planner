@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'corsheaders',         # CORS
     'api',
 ]
+GROQ_API_KEY = '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'
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # React ka address
     "http://localhost:5173",
