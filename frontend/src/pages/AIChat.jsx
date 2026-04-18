@@ -5,7 +5,7 @@ import './AIChat.css';
 const AIChat = () => {
     const [messages, setMessages] = useState([
         {
-            role: 'assistant',
+            role: 'Assistant',
             text: "Hello! I'm your Study Assistant. Ask me to explain any topic or create a study plan for you! 📚"
         }
     ]);
